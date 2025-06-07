@@ -1,20 +1,20 @@
-Food Delight - Online Food Ordering System
+# Food Delight - Online Food Ordering System
 Overview
 Food Delight is a simple web-based food ordering application that allows users to browse food items, add them to a cart, and place orders. The application features user authentication (login/register), order confirmation emails via SendGrid, and a SQLite database to store user and order data. It is built using Node.js, Express, HTML, CSS, and JavaScript.
 Features
 
-User Authentication: Users must log in or register to add items to their cart and place orders. Authentication is handled using JWT (JSON Web Tokens).
+## User Authentication: Users must log in or register to add items to their cart and place orders. Authentication is handled using JWT (JSON Web Tokens).
 Shopping Cart: Users can add food items to their cart, adjust quantities, and view the total price.
-Order Placement: Orders are saved in a SQLite database, and a confirmation email is sent to the user with order details, including embedded images of the food items.
-Responsive Design: The frontend is styled with CSS for a clean and user-friendly interface.
-Email Notifications: Order confirmation emails are sent via SendGrid with embedded images of the ordered items.
-Logging: The server logs login details and email content to the terminal for debugging purposes.
+## Order Placement: Orders are saved in a SQLite database, and a confirmation email is sent to the user with order details, including embedded images of the food items.
+## Responsive Design: The frontend is styled with CSS for a clean and user-friendly interface.
+## Email Notifications: Order confirmation emails are sent via SendGrid with embedded images of the ordered items.
+## Logging: The server logs login details and email content to the terminal for debugging purposes.
 
-Prerequisites
+## Prerequisites
 Before running the application, ensure you have the following installed:
 
-Node.js (v14 or higher)
-npm (comes with Node.js)
+> Node.js (v14 or higher)
+> npm (comes with Node.js)
 A SendGrid account and API key
 SQLite (included with sqlite3 package)
 
