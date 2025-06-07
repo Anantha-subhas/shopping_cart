@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping-cart</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">
+                <ion-icon name="fast-food"></ion-icon>
+                Food Delight</a>
+            <div class="box">
+                <div id="count">0</div>
+                <ion-icon name="cart" id="cart-icon"></ion-icon>
+            </div>
+            <div class="cart">
+                <div class="cart-title">Cart Items</div>
+                <div class="cart-content">
+                    <div class="total">
+                        <div class="total-price">Total</div>
+                        <div class="total-price">$0</div>
+                    </div>
+                    <button class="btn-buy">Place Order</button>
+                    <ion-icon name="close" id="cart-close"></ion-icon>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h2 class="title">Discover the best food</h2>
+            <div class="shop-content">
+                <div class="food-box">
+                    <div class="pic">
+                        <img src="images/img_1.jpg" class="food-img" alt="Plain Dosa">
+                    </div>
+                    <h2 class="food-title">Plain Dosa</h2>
+                    <span class="food-price">$3.00</span>
+                    <ion-icon name="cart" class="cart-icon"></ion-icon>
+                </div>
+                <div class="food-box">
+                    <div class="pic">
+                        <img src="images/img_2.jpg" alt="Briyani">
+                    </div>
+                    <h2 class="food-title">Briyani</h2>
+                    <span class="food-price">$10.00</span>
+                    <ion-icon name="cart" class="cart-icon"></ion-icon>
+                </div>
+                <div class="food-box">
+                    <div class="pic">
+                        <img src="images/img_3.jpg" alt="Parotta">
+                    </div>
+                    <h2 class="food-title">Parotta</h2>
+                    <span class="food-price">$3.00</span>
+                    <ion-icon name="cart" class="cart-icon"></ion-icon>
+                </div>
+                <div class="food-box">
+                    <div class="pic">
+                        <img src="images/img_4.jpg" alt="Soup">
+                    </div>
+                    <h2 class="food-title">Soup</h2>
+                    <span class="food-price">$4.00</span>
+                    <ion-icon name="cart" class="cart-icon"></ion-icon>
+                </div>
+                <div class="food-box">
+                    <div class="pic">
+                        <img src="images/img_5.jpg" alt="Pizza">
+                    </div>
+                    <h2 class="food-title">Pizza</h2>
+                    <span class="food-price">$8.00</span>
+                    <ion-icon name="cart" class="cart-icon"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
